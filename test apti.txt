@@ -1,0 +1,101 @@
+APTITUDE TEST
+1.a)29
+2.c)20
+3.c)96
+4.c)63
+5.
+6.b)k
+7.a)p
+8.b)FR
+9.c)bccab
+10.a)GOV
+11.2
+12.
+13.window
+14.earth
+15.BE
+
+JAVA TEST
+
+1)JAVA & JAVAC
+   Java & javac are JDK tools.javac is used to run the code. and javac is used to compile the file.
+   java is a programming language and it is a plotform independent.
+   
+2)JDK,JRE,JVM
+    JDK-JAVA DEVELOPMENT KIT
+    JRE-JAVA RUNTIME ENVIRONMENT:it is used to execute the programs.
+    JVM-JAVA VIRTUAL MACHINE: It is used to execute actual program.
+ 
+3)LIMITAIONS OF ARRAY
+    *If once the Array size is created it cannot be changed.
+	*If we want to change the size we have to execute the program again.
+    *Array is the container which holds the data in sequence.
+ 
+4)CLASS:- class is a Non primitive datatype.
+          class is a blueprint of the object.
+		  every class should have the body of the class.
+  OBJECT:-object is a realtime entity .
+          whatever we are using the things these are all objects.
+  
+5)WHAT IS ARRAY
+   Array is a structured container which holds the data in a sequence manner.
+   In array we can use iteration processes.and Array contains index boxes
+   
+6).java file  :-It  is a readable and understandable for users and developers.It is in english language so everyone can understand.
+  .class file :- It is only understands to system because it is in byte code.byte code means it is only in zeroes and ones.
+  
+7)Length of the Array is:Len=length.data;
+  Len=6;
+  
+9)Java is a programming language. and Java is a plotform independent.
+  once the code is compiled it will generate byte codes which are only in zeroes and ones.
+  
+12)DATATYPES
+    Data types are Two types:
+	     -Primitive
+		 -Non primitive
+   Primitive datatyepes are:
+	double
+	boolean
+	int
+	float
+	short
+	byte
+   Non Primitive datatyepes are:
+	string
+	char
+	
+13) JAVA Features:
+            It is plotform Independent.
+           object oriented programming language.
+		   it has JVM.
+		   It has Security.
+		   web development.
+		   Applications.
+		   
+16)System.out.println();
+      It is a statement
+	  system is a pre defined class
+      . (dot) is a operator used to access class members
+      out is a static variable	
+      println is a static method
+      in () this parameters we can give any messages we want.it will print for us. 	  
+	  
+18)Dot operator
+             Dot operator is used to access class members.
+			 
+19)
+     base class for all classes is where we have created the main method .			 
+			 
+20)Java keywords:-
+    static
+	void 
+	string 
+	public
+	private
+	return
+	float
+	int
+	return
+	double
+	goto
