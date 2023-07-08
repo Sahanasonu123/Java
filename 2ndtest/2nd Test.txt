@@ -1,0 +1,99 @@
+*Aptitude*
+
+1.d)maternal uncle
+2.c)father-in-law
+3.b)sister
+4.c)father-in-law
+5.c)grandson
+6.c)X+A*Y
+7.c)R
+8.b)brother in law
+9.c)Father
+10.c)s
+11.a)10
+12.a)north
+13.a)south west
+14.b)south east
+
+*Java test*
+
+1.it cannot be converted into boolean
+2.10,110
+3.it cannot be converted into boolean
+4.why main method static?
+   The main() method is static. so that JVM can invoke it without instantiating the class. 
+    This also saves the unnecessary wastage of memory which would have been used by the object declared only for calling the main() method by the JVM.
+	
+5.public class Sort {
+    public static void main(String[] args) {
+        int arr [] = {2,5,4,8,2,3,6,2};
+        int len = arr.length;
+        Arrays.sort(arr);
+        for(int count =0; count< len; count++)
+        {
+            System.out.println(arr[count]);
+        }
+    }
+}
+6.
+7.outputis:Done
+8.In Java, both this and this() are completely different from each other. 
+   'this' keyword is used to refer to the current object, that is through which the method is called.
+   'this()' is used to call one constructor from the other of the same class.
+   
+9.  public class Swap
+ {
+      public static void main(String[] args) 
+	  {
+        int num1 = 10;
+        int num2 = 20;
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+        System.out.println("a = " + num1 + " \n"+"B = " + num2);
+
+    }
+}
+
+10.
+ 1)public class Pattern 
+ {
+        int size = 3; 
+     public static void main(String[] args) {
+             for (int j = 0; j < size; j++) {
+                 if (j == i || j == size - i - 1) {
+         for (int i = 0; i < size; i++) {
+                     System.out.print("*");
+                 } else {
+                     System.out.print(" ");
+                 }
+             }
+             System.out.println();
+         }
+   }
+ }
+	
+	
+	
+   3)public class Pattern
+	{
+        public static void main(String[] args) 
+	   {
+        int size = 3; 
+        for (int i = 0; i < size; i++)
+		{
+            for (int j = 0; j < size; j++)
+			{
+                if (i == 0 || i == size - 1 || j == 0 || j == size - 1) 
+				{
+                    System.out.print("%");
+                }
+				else
+				{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+      }
+    }
