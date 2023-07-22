@@ -1,0 +1,118 @@
+                                                  JAVA TEST 3
+												  
+1.Error:-Illegal start of expression.
+
+2.Error:-Illegal start of expression.
+
+3.Compilation Error
+
+4. length is 4 and sum is 100.
+
+6.Method Parameters:-
+                      Information can be passed to methods as parameter.Parameters act as
+ variables inside the method.Parameters are specified after the method name,
+ inside the parentheses. You can add as many parameters as you want,
+ just separate them with a comma.When the method is called, we pass along a first name,
+ which is used inside the method to print the full name.
+ 
+7. Compile-time polymorphism is obtained through method overloading. 
+  The word method overloading allows us to have more than one method with the same name.
+  Since this process is executed during compile time,
+  that's why it is known as "Compile-Time Polymorphism".
+  
+  examle:
+  class ToothPaste{
+	
+	String colour;
+    int price;
+	int manufactureDate;
+	
+	ToothPaste()
+	{
+		System.out.println("running no-args const");
+		
+	}
+	
+	ToothPaste(String colour,int price)
+	{
+		System.out.println("running string,int const");
+		this.price=price;
+		this.colour=colour;
+		this.manufactureDate=manufactureDate;
+		
+	}
+	
+	ToothPaste(String colour,int price,int manufactureDate)
+	{
+		System.out.println("running string,int,int const");
+		this(price,colour);
+		this.manufactureDate=manufactureDate;
+		
+	}
+}
+
+8.Var-args:-
+           The varrags allows the method to accept zero or muliple arguments.
+	Before varargs either we use overloaded method or take an array as the method parameter but 
+	it was not considered good because it leads to the maintenance problem.
+	If we don't know how many argument we will have to pass in the method,varargs is the better approach.
+  Advantage of Varargs:
+      We don't have to provide overloaded methods so less code.
+  Syntax of varargs:
+      The varargs uses ellipsis i.e. three dots after the data type. Syntax is as follows:
+
+             return_type method_name(data_type... variableName){}  
+			 
+9.Package
+    	 Java package is a collection of similar types of sub-packages, interfaces, and classes.
+		 
+   There are two types of import Explicit & Implicit.When we use predefined java classes 
+ in our java code then we need to load that class by the using import keyword at the very first line of our program.
+     Explicit import : Classes are available inside the package, Explicit means direct or 
+ when we give the proper path of the java class it will call as explicit import.			
+
+10.Constructor chaining
+        It is the process of calling one constructor from another constructor with respect
+	to current object.One of the main use of constructor chaining is to avoid duplicate codes 
+	while having multiple constructor (by means of constructor overloading) and make code 
+	more readable.
+	
+	Example:
+	class Oil{
+	String brand;
+	long quantity;
+	int price;
+
+	Oil(String brand,long quantity)
+	{
+		System.out.println("Running string,long,int constructor in Oil");
+		this.brand = brand;
+		this.quantity = quantity;
+	
+	}
+	Oil(String brand,long quantity,int price)
+	{
+	    this(brand,quantity);
+		System.out.println("Running string,long,int constructor in Oil");
+		this.price = price;
+	
+	}
+	}
+	
+12.
+13.
+
+14.Enumerations:
+        An enum type is a special data type that enables for a variable to be a set of predefined constants.
+	The variable must be equal to one of the values that have been predefined for it.
+	Common examples include compass directions (values of NORTH, SOUTH, EAST, and WEST) and the days of the week.
+
+15. In JAVA , when we allocate the object using new(), the object is allocated on Heap, 
+    otherwise on Stack if not global or static.
+	
+16.Members of Class:
+       Methods
+	   Constructor
+	   Instance Variables
+	   Static Variables
+	   enum
